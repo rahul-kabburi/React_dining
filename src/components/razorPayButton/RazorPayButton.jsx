@@ -30,7 +30,7 @@ const RazorPayButton = ({ formData, isFormValid, amount, cart }) => {
       key: import.meta.env.VITE_razorPayApiKey, // Use environment variable
       amount: amount * 100, // Convert to paise
       currency: "USD",
-      name: "Jyotirmay Sarkar",
+      name: "Rahul K",
       description: "DineDash Order Payment",
       handler: function (response) {
         alert("Payment successful!");
